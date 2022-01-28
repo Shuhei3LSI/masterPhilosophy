@@ -454,7 +454,7 @@ def psnr(img_1, img_2, data_range=255):
     mse_t = np.mean((img_1.astype(float) - img_2.astype(float)) ** 2)
     return 10 * np.log10((data_range ** 2) / mse_t)
 
-# 絶対パスで画質評価(PSNR only)
+# 固定パスで画質評価(PSNR only)
 def Image_quality_evaluation():
     path_orgi = path_out + 'orig_rec.bmp'
     path_mise = path_out + 'convr_rec.bmp'
@@ -492,10 +492,6 @@ def main():
     #predict()
 
     #Image_quality_evaluation()
-
-
-
-
 
 
 if __name__ == '__main__':
