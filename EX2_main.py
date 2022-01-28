@@ -495,7 +495,9 @@ def main():
 
 
 if __name__ == '__main__':
-    
+    aa = 0
+    ss = 1
+
     main()
 
 
