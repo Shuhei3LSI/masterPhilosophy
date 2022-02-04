@@ -30,8 +30,6 @@ first_layer_filter_count = 64   # 一番初めのConvolutionフィルタ枚数�
 input_channel_count = 2         # 入力２チャンネル（amp,phase）
 output_channel_count = 2        # 出力２チャンネル（amp,phase）
 
-#データセットの形:
-    # 間引き率 = 1/2
 
 # 保存パス
 path_out = 'data/'
